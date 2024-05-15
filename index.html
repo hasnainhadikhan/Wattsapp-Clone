@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WattsApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+body{
+    background-color: rgb(41,41,41);
+}
+#head{
+     position: absolute;
+     top: 3%;
+     left: 1%;
+}
+  #chat{
+  position: absolute;
+     top: 9%;
+     left: 1%;
+  }  
+  #phone{
+  position: absolute;
+     top: 14%;
+     left: 1%;
+    }
+
+    #status{
+  position: absolute;
+     top: 19%;
+     left: 1%;
+    }
+  #gear{
+  position: absolute;
+     top: 97%;
+     left: 1%;
+    }
+ #arch{
+  position: absolute;
+     top: 91%;
+     left: 1%;
+    }
+  #star{
+    position: absolute;
+    top: 85%;
+    left: 1%;
+  }
+  #bar{
+    position:absolute;
+    top: -2.4%;
+    left: 90%;
+  }
+  #zip{
+    position:absolute;
+    top: -2.4%;
+    left: 76%;
+  } 
+  h2{
+    position: absolute;
+    top: -7%;
+    left:2%;
+    color: #e9ecf1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+     }
+  
+  
+    .logo{
+    color: white;
+    position: absolute;
+    top: -0.5%;
+    left: 3.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 400;
+  }   
+   #main{
+    color: rgb(41,41,41);
+    position:absolute;
+    top:6%;
+    left: 3.7%;
+    width: 94%;
+    height: 94%;
+   border-radius: 10px;
+}
+#nine{
+  color: white;
+  background-color:rgb(48, 45, 45) ;
+  width: 80px;
+  height: 2.6%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5%;
+  position: absolute;
+  top: 17%;
+  left: 60.7%;
+}
+.non{
+  background-color: rgb(173, 173, 148);
+  width: 560px;
+  height: 5%;
+   color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5%;
+  position: absolute;
+  top: 24%;
+  left: 45%;
+}
+.gang{
+   color: white;
+   background-color:rgb(54,54,54) ;
+   width:160px;
+   height: 6.8%;
+   text-align: center;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 35%;
+   left:30.2% ;
+}
+#a{
+  position: absolute;
+  top:42%;
+  left:37.9%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+}
+.bomb{
+  color: white;
+   background-color:rgb(9, 94, 6) ;
+   width: 120px;
+   height: 4.9%;
+   text-align: center;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 50%;
+   left:89% ;
+}
+#b{
+  position: absolute;
+  top: 55%;
+  left:94%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+}
+#ten{
+  color: white;
+  background-color:rgb(48, 45, 45) ;
+  width: 80px;
+  height: 2.6%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5%;
+  position: absolute;
+  top: 57%;
+  left: 60.7%;
+}
+.van{
+  color: white;
+   background-color:rgb(54,54,54) ;
+   width:220px;
+   height:8.8%;
+   text-align: center;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 68%;
+   left:30.2%;
+}
+#c{
+  position: absolute;
+  top: 77.5%;
+  left:42.2%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+}
+.jeep{
+  color: white;
+   background-color:rgb(9, 94, 6) ;
+   width: 120px;
+   height: 3%;
+   text-align: left;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 85%;
+   left:89% ;
+}
+#d{
+  position: absolute;
+  top: 88.8%;
+  left:94.3%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+ 
+}
+
+.car{
+  color: white;
+   background-color:rgb(9, 94, 6) ;
+   width: 120px;
+   height: 3%;
+   text-align: left;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 92%;
+   left:89% ;
+}
+#e{
+  position: absolute;
+  top: 95.8%;
+  left:94.3%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+}
+#tick{
+  position: absolute;
+  top:45%;
+  left:41.9%;
+}
+#cross{
+  position: absolute;
+  top: 58%;
+  left:97.9%;
+}
+#ok{
+  position: absolute;
+  top: 80%;
+  left:46.2%;
+}
+#done{
+  position: absolute;
+  top: 91.6%;
+  left:98%;
+}
+#lol{
+  position: absolute;
+  top: 98%;
+  left:98%;
+}
+.pro{
+    position: absolute;
+    top:96% ;
+    left:-27%;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}  
+img{
+  margin-top: 4.9%;
+   margin-left: 27.7%;
+   width: 998px;
+   height: 680px;
+}
+#father{
+  background-color:rgb(54,54,54);
+  margin-top:0% ;
+  margin-left:-0.2% ;
+  width: 370px;
+  height: 810px;
+  border-top-left-radius: 12px; 
+  border-bottom-left-radius: 12px;
+    position:absolute;
+    top:6%;
+    left: 3.7%;
+  border-right: 1px solid rgb(26, 24, 24);
+}
+#mother{
+    background-color: rgb(54,54,54);
+    margin-top:47px ;
+    margin-left: 29.4% ;
+    width: 71%;
+    height: 61.9px;
+    border-bottom: 1px solid rgb(26, 25, 25);
+}
+.noob{
+ position: absolute;
+ top: -1.3%;
+ left:3%;
+    width: 45px;
+    height: 45px;
+    border-radius: 21px;
+}
+#babu{
+  position: absolute;
+ top: 6%;
+ left:35%;
+ color: white;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.babu{
+  position: absolute;
+  top:9.5%;
+  left: 35%;
+  color: white;
+  font-size: small;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cam{
+    position: absolute;
+    top: 9%;
+    left: 90%;
+}
+#call{
+  position: absolute;
+    top: 9%;
+    left: 93%;
+}
+#search{
+  position: absolute;
+    top: 9%;
+    left: 96%;
+}
+
+#child{
+  background-color: rgb(54, 54, 54);
+    margin-left: 29.4%;
+     width: 999px;
+     height: 58.5px;
+     margin-top: 48.7%;
+     border-top: 2px solid rgb(26, 25, 25);
+}
+#face{
+  position: absolute;
+  top:106.7%;
+  left:31% ;
+}
+#pin{
+  position: absolute;
+  top: 106.7%;
+  left: 34%;
+}
+#mic{
+  position: absolute;
+  top:106.7%;
+  left: 97%;
+}
+input{
+  border-bottom:0px; border-top:0px; border-left:0 px; border-right: 0px;
+  background-color: rgb(54,54,54);
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 2%;
+  margin-left: 12%;
+width: 500px;}
+.id{
+    background-color: rgb(54,54,54);
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   width: 260px;
+    }
+
+
+
+#musk
+{
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+  position: absolute;
+  top: 6%;
+  left: -24%;
+}
+#az{
+   color: white;
+   position: absolute;
+    top: 6.7%;
+    left: 21%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#z{
+ color: gray;
+  position: absolute;
+  top: 9.5%;
+  left: 21.9%;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#women{
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+  position: absolute;
+  top: 26%;
+  left: -24%;
+}
+#op{
+  color: white;
+   position: absolute;
+    top: 26.7%;
+    left: 21%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#n{
+  color: gray;
+  position: absolute;
+  top: 29.5%;
+  left: 21.9%;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#obama{
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+  position: absolute;
+  top: 16%;
+  left: -24%;
+}
+#gf{
+  color: white;
+   position: absolute;
+    top: 16.7%;
+    left: 21%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#x{
+  color: gray;
+  position: absolute;
+  top: 19.5%;
+  left: 21.9%;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#iqbal{
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+  position: absolute;
+  top: 36%;
+  left: -24%;
+}
+#fu{
+  color: white;
+   position: absolute;
+    top: 36.7%;
+    left: 21%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#o
+{
+ color: gray;
+  position: absolute;
+  top: 39.9%;
+  left: 21.9%;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#ronaldo{
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+  position: absolute;
+  top: 46%;
+  left: -24%;
+}
+#ra{
+  color: white;
+   position: absolute;
+    top: 46.7%;
+    left: 21%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#modi{
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+  position: absolute;
+  top: 56%;
+  left: -24%;
+}
+#mo{
+  color: white;
+   position: absolute;
+    top: 56.7%;
+    left: 21%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#f{
+  color: gray;
+  position: absolute;
+  top: 59.9%;
+  left: 21.9%;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#group
+ {
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+  position: absolute;
+  top: 66%;
+  left: -24%;
+}
+#ac{
+  color: white;
+  position: absolute;
+  top: 66.7%;
+  left: 21%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#aslam{
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+  position: absolute;
+  top:76%;
+  left: -24%;
+}
+#lm{
+  color: white;
+   position: absolute;
+    top: 76.7%;
+    left: 21%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#m{
+  color: gray;
+  position: absolute;
+  top: 79.9%;
+  left: 21.9%;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#drug{
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+  position: absolute;
+  top: 86%;
+  left: -24%;
+}
+#du{
+  color: white;
+   position: absolute;
+    top: 86.7%;
+    left: 21%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#uk{
+  color: gray;
+  position: absolute;
+  top: 89.9%;
+  left: 21.9%;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.on{
+   color: gray;
+   line-height:4px; 
+   text-align: right;
+   margin-top: 22%;
+}
+
+</style>
+</head>
+<body>
+    <header>
+    <nav>
+ <i id="head" class="fa-brands fa-whatsapp fa-2xl" style="color:#16e943;"></i>
+        <p class="logo">WattsApp</p>
+ <i id="chat" class="fa-regular fa-comment fa-fade fa-lg" style="color: #e9ecf1;"></i>
+    <i id="phone" class="fa-solid fa-lg fa-phone fa-lg" style="color: #e9ecf1;"></i>
+     <i id="status" class="fa-solid fa-chart-pie fa-lg" style="color:#e9ecf1"></i>
+     <i id="gear" class="fa-solid fa-gear fa-lg" style="color: #e9ecf1;"></i>   
+     <i id="arch" class="fa-solid fa-box-archive fa-lg" style="color:#e9ecf1"></i>
+     <i id="star" class="fa-regular fa-star fa-lg" style="color:#e9ecf1"></i>    
+        <img class="pro" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXN20wVp95xuNCPpunYLj09fFV0edgSozRZ_02kiybpmUu73yIEqlfmHAOrTPyXyBCFGI&usqp=CAU" alt="profile">
+   </nav>   
+  </header>
+  <section id="father">
+    <aside>
+    <div id="main">
+         <h2>Chats</h2>
+       <i id="bar"    class="fa-solid fa-chart-bar fa-lg" style="color:#e9ecf1;"></i>
+       <i id="zip" class="fa-regular fa-file-zipper fa-lg" style="color: #e9ecf1;"></i>
+       
+    <section id="l">    <input class="id" type="text" placeholder="Search 0r start new chat">
+ </section>
+      
+        <img id="musk" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFRYYGBgaGBkaGBoaGBoYGBgcGBoZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQhISExNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAPUAzgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAECAwUGBwj/xAA6EAACAQIEAwUGBAUEAwAAAAABAgADEQQSITEFQVEGYXGBsRMikaHB8AcyQtFScpKy4SNigqIVJHP/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAjEQADAQADAAICAgMAAAAAAAAAAQIRAyExEkFRcQQyE0Jh/9oADAMBAAIRAxEAPwDzlqch7OaTUxKaiCdjlGGg6rJq0od7GVtUk9IeBzYm0BxOMg1dzBWuZFW/EWpJVMQTKrx8skFmPbLGtFJGMFgA2aNmk2SUkQ7QBCPCkcWmcpl60nI0ViOtjb4yleC+Ol9SoIOXlbqQbEEHvFpG8TtsMLrxhIIt4QojnsTGWlE1MR89pBqst/FAtGCyRlYePmkpoZFhIZZYWivE0gK8kWWWxRYGnS1a4EAr4mAVsWTKEckzZ8v0iFJoqhaEJhDLeHoJq2E0mV6Z1X0Yz4OAYjD2nQVqgmTidYqlNDmmZRk0S8tNKSBtMFP5NdEKERpCO2IEoevL2ULsd5bh+GO5/hHVtD5CQoHnbXr0hOEruW90X6n95hdP6NZn8lp4eiGzEsRy29OUvbEZVAPujuvqJOhw13OYHU7nx6TVwvZJ36nvP+Zg3+WbTL+kYjY5BsobxH1N5GrikcWZB99DynZ0vw/YjdR5wXG/h7WUEoQ3df8AeJXI3x0cS+EFrqfI7+XWDF7TUxWEek5V1KnoRaZ9ZLkkec3i+jCpwGYkxpO0bLKJImK8lliywAQjR7RGMBiZG8ciK0kBpNN4wEtSmTGgD8LiisJfHmALTMTIZqqpIzcpsIOJJjF7wYKRGdzD5fkalE6tQQR6kgxMjIqmykhEy2lvci9uvOVqNZcRyEzY0WYWkztYbcz0E6vh2BAAUD76mAcIw1lvbeb+FTUATKnpvCw3eG4NFA01m/hlA2mRgKJ6zZSnaYvs6EH4ZrzRWlpeZeEW5msjaWmbSK7Od7Q8DTEoUdfe1ysNCDy16TxXi/DqmGqNTcajnrqORHdPoXEJecb2z4OlVczLdlG43t3S+O2nj8I5ZTWnkNajcZh016QMtN9KBQsuhFtNLgjmCDzmNjqeVzbY6idc1vRyVOdlOaLNK4pekFt4rysSQhoE4rRhJQAuWjCKCXNpQ1SKjibGapymQ9w6TA8ODbzYpcFXoJjcNx4FrmbtLjCdZ1Spw56daVVeCL0mVjuCqBNt+MJ1mZjuIqRvKpQSnRx2Nw+UwWG8RxAZtIDOC8+Tw653Oyym2sIoJmcAczBVOs1uFJ79+gmdPo0la8N/DAKADsIQnFKaHU6wMLc3O3IR2xFJdGK/ECQp01bw6jBcYRgLGbNLHX2nnbYpAbofLr4ETuuyeGFVCSeUmlKXZUU6C6nGlpjMfgNzLMJ25R2yeyfx/fSclxerkqOrX91iIZwnH4ViEYqr9S7Kb9Llct+68mpktVR3645HHunXmPveZ/GaZKXHKAYZhnyHxQ7HwNtJtqbjXpMswtvVh5ZjsKpZj967zluM4Up0tfTznadoKWSq6cr6fScpx9/dUcyfSbwn6ctteHP2kgksVZILNzIiEiyyyNljAhHtLFWShgtKCkbJJ3ijxAQuRzkg79TEJNRACs1H6mQLsdyYTaNlEWMAS0aFlJA04fFhpRNjhTaj+X0mYUmxgaQW1jfTXuOkzrw041r01HBIsOfylD8OU2BzaX1Gh13uYdQmsMMgQki/f3yJrDap0wTQvy1sF8htfvnddh39xhyF/OcdXqAd2n2Zu9luOJTG65cpNzsRY5rxcidF8LU9mx2o4Iz5aqIGI/NbQ6bG3OY/C+EU2qZ3w7lzuQdDfTa4752OE4uj01qI4ZW0uDsehl+Fyk30/eZKmlhrUpvQHD8JCZcmbKNlY3K9wY627jNILYWhzOoEBrPfUdZCb0HPRwfaWneux5HQ+U4Tjx1Uc7n6T1DFYamXd6hJXMcoG7Haw85532rWmzJVpK6K2ZWRzcqyW1BvsQ3ynXFfRyXDadGAok8sQMizzUxLUl4AgAq2kxXlS0S0y2o9pQakZjcxwkG230CK7xwZCK8goszSQeU5o94aBcKkkrygNHzR6IIziQZpTmjZofIMLbzZ4ct0Dc72Plf/ABMEGa/BWurjoQfjp9JFvUacfVG7Qh3tDa3IcpnUoUXsLzNGtMGxFHODr494hXB+EOpSwIRmK38Rra8ArY7KQAMzHYf4mvhOL4wKBlS24zBdLSmqfiKmpT7eHW8E4AKKsqsSja5bbHrvLqDtTcob23U/vMXhfbY3FPEoEJ/K67dNR075uCsjtZSLjUffSYNNPs3dJpYaJxN7STN7sGRNJcH01kr0VPoyFZ6WNC2DI9JSAeRN7nxuPnOE/EPDqjoq6El3I7myfUGemY+iFPtSgzKBmckAKoub99vrPG+0nETicQ9X9JsqDoi6D46nzm3DLqtM+elMKftmKbxlosxsAT4C8LRO6bnCqIsO/edi49OB1hzbYRx+ZGHipAjpTJ2E7s4YEWmXWwSg3mk8SM3yGBSwZM0qHD9NofTpgS7OomqhIzdtnDXiluSVkTictHVo0V4rRwsWDGvFJFDIwzAFFEJMCICFpocKr5Wy2/NbytrAyJOibMD0N4s0aePTq6ZhFXVdDM/C1QYbT5yEsNm9Marw/wB67O2/L95r4ThFAqC1Z77WDNp6SYp3heB4Orm7NlHzj+XQ0p8zQjCdksI+gaqzciGAt4CxhtDhL4SouVmdDYAk3I7jOh4XwpEUZDfxheJwuYa7TB32bNdeYWK91gnEcUEovU/gRmt3gSZ90b7Tme1XEP8ARamp1qaHwvdv285XHPypJEXfxlsw+Ldr6tekaNrBgAxvckdPOc2MMTDaWHtvCFUCelHFMrEebyc1U9b0Do4SaGHfJtKmrgQSvjZp0jPtm2eJabW85n4nHiYtXHwKrXJkVzJeGi42/TWqcSHWDnHk7TLEsEyfLTNFxyiWYStjCDhxKWp2iqaXo00RtJoJC0dQeUS6GW2lLCTYNIrCnokRtL6aSIEmGhKX2DbE6yCC5kybyO20VZ9DWnRYzh7U1R01XKM3jbfwg6Y/Y9N5vdnsSKlJQd190+WnpaDcb4ERepSH8yj1H7RONWoarHhTR4grQxMWbaGx5Tn6VPxE0aFE8vvzmXRtKZ1XDuPlAAxNucLrdpM35LzlkwBOpJ8JqYHAkkAC5kfGX2VVUujSTE1KpsunU9JzvaOoq1ig/QqgnmSRck/Gd7gsCES3Pc95nmfbThtahWNR7MlZnZHW9jY6oQdmW408CJrw1M0Z80tyCNigILW4hMxnJiyTpfI34cyhL0tqYsmUlyd5BljTJtv00SS8LQIxWMok4sAgEkwkcNJBowCLjrBX1MWTrCcM6XsVJ8TLrk0mZBMkJo4dv4T8JqIoH5QLeFiPHrLR9Zn/AJM8RXx0zThW6SpsHbVgfpNpU9YsRSJQgC51tJfI36NSkYopLGIHQStiQbHQ9DGzR9iEWuJVJgSMYzb7L4rJUKHZtvEf49J3uBqcjPKqblWDDcEEeU9A4Viw4Vx+oDy6zSH0RSDuIcHRjmQhWOpXke/uMoo8OZRqNBzGo+W02Epkkn76CGYWqU1tc7EHUMOasOYkXxqv+GkctTifaMNcISbCdLwnBqg/3Hn9ILXpKr+7fKbMoO6htcp7xqL87Q/Dv0nJWro60lWMIxhCp8o+K7OrjsA+HNg356TH9NQA5T4G5U9xMyO0GNyoO9wB6zsuzFYBMp6CLj7rRcyyT5jrUWRmRlKsrFWU7qymzKe8EERC09G/Gjs97HErikFkr6N0FVRr/Utj4q3WebWnZNM4mhOJHJHiiYx1SOUj0wZZrLXgmUimYssvBkGYR/FBpW5uY9ORhFNOcyKDcFVsfHeaTU7bbE3Ex0FprUmzJb+HWQxokplg+v7SnNLEPr+0QFwQX/xM3G8IBuyGx/h5Hw6TWAjPGngzjnVlJBG3LmIgbzpatNK11/hNieYMHr8DG6G3UNrfvvylKl9k4Ydp0PZjFWfIdr3Hx1meeFONyPI3mlgMCqkEXzggg36crdJapJktaj1Chhr6iHVaAUgciBKOG1RpfY6jz1mpi6d1BHL0M2YjFx9PQN0NvjqPr8ZPBJdSQO6GPRzqV5kaePL52lnDaeWlmYWtcnyE4P5C+L/Z3fx38pz8HG8bu9ZKQ1AdQfEkEz0vheBKgMRoBe1wPjflOE7PcONXE5zst2PidB6n4Td7ScRdAie8tPNla4ILk7E35d0OKcWmfNXeEfxJxNOtw6sgGYqodW5KyEG6nmbXF+hM8BInt/GEBwdUEXBTKe8FgJ5bieDndDf/AGnfyM6ZaXTOZ6YQkiknVQqbMCD0MjrLwWiQR2aMFMf2ZMpeYSwd3kIQ9GQCSHL0pMaXo0olyLMywqnrNXBb26zFTSaWCc6W1+UlgO7WuOh9DLaDev7SjiBs17WvY6/OSw7esBmmpkXESGSdbyRmViW9k4qj8re6/wBGmyhuARqDt3iCVKAZSp2Okp4LWKlqD7pqvev36wAOq07wembH1hrJBKotADt+z2JzoF5qfkdvvunaJRbIubZhoR8x4iecdjcWBWCNtUGQHo26H+oAeDGepYEZ6TLzHvr48x99ZvN6jPMZl+ztbxgvaLF5UCLoX1bwvr8TNhEvrAONcP8AaZFG+cL4B9D9DJ54dLX9GnBal/sJ7I8LKU1c/rOc+A2Hp85r9oeHrXw702F9My9QV1Fuh5ec0KVMKoUbAADwGgk5CWLBU/k2zzDiF1wNW/6cl/61E4hltqNp334i4M0sOyICVqMpH+3KczA/KefYR7rrKrN6EivE4VHFnW/fzHgZiY3hDpcp7y/9h+86MrHtJmmhtJnGL3y5GFpu4zhqvqtlbw0PjOdx1JkNmFj8j4Tom1hlU9k3YWlGYQb2kcGDrQ+OEwIVRGkFl9KYmgTUpm20hhcVlazQrD1esXEMHpnQbb9Yt+mBLibDIrDw+olOFqbSt6uaiwuNMp274Pg31hnQHR02lzGB0WhIMljHgPE6RFqq/mQ3PevMQ6+8RiGXUKwdFZdjrGqpM3hr+zqNRP5W95PqJrusbAGwtQqwsbWNwek9q4Pjc6Uq42qC7W5Ns6/1AnzniDixnpP4c4/PTqYc7j/UTysrD+0/GNPGJnb43C5bsNr6jpfp3RYBQzA9Bf6fWXYhs1E91r+RF5l/+UTD03q1L2FgAoux3Jtea/JucIzHp0kU+YW7WYx6xxBxNVWZiwC1HCrc3Cql8uUbWtbTWeo9g/xDq4quuHrqnvK2V0DKcyjNZlJN7gHa0zKOx7W4L2mHI/hYN6qfk08S9lkquh5Xt9J9BYulnRl/iUj4jSeHdqaWWojjnofGN9r9C+wRzaMZLcSGXX7tMyxjKcThkdcri49PAy+RlCOSx/DglypuoNjfdTy8jAgJ0joGeqh/UoPnbf5TnXUg2mkdohjqsvQRkWXKBJKEj2mtg64Okz0oAyTUMuqtr0kvGBTxXD+zJK/le9u49Jm0W1E0Mfj86ZGHvAgiZtI6ykB0WFfSFq+0zcM+0LV5DQwpW9Y8oRpYpiAG4hSJXMv50N1+omhgsSKiBxzGvcZSPrBsK3s6pT9D+8vcw/MPrAA+sk1uyHEfYYmm5NlDWb+Vvdb5G/lM5xKqZ1gM+hFp6OvUGx8QRPDOJcN4ioZncvdmDgNcG3uscjWsNP0nlPZOyeO9thaTk3YLkbrdfdufGwPnJ47BF6eUKC2didhuWBPpNZa0h+HzXV4Y9JWZ1KldRcW021Gh5ztvwe4Y74wViPcpoxv1ZwVAA8CSfEdZ6FxfsmtQhcmZTYEgAFdeYvr1vN/gvA6OFUrSQLmN2PMmwH0hXiEnpqTyH8RMAVZwOudf5W108DceU9enG/iJw7PQ9oN1urfytt8G/uiX4GzyvCvdAe6SaD8PPu26aQlpmUQMRMTmMZQGWV/9g96D1ImPjqdnbx9dZuVB/qg/7D6zM4ipz36gTXiXbRFeAaL3y6xlaSReQUE4YdZa2NRdMpby+sCpYoKdYXT4kpOiX8BaS0CM7iuIz5fdtYeesCpTZ43RGUVBpyI567TGSUgNLDPDkMysM00UbSJgEBpYjSlD6SaxDLlbaD8UUlMw3Q5h5b/fdLA0mRcWOxFvjAAjB4nOisOmvjzkwdZh8FrlHameZNvEaH78Zt31iaxgj1D8LcZdatE8irqPEZW/tX4z0C08d/D7G5MWgJ0cMh/5C6/9lE9ijQhRRSB3t3ffrGBOZHahQcLVB5qB/wBhaaNGrffQjQiZnatrYap/x/uEaXaQm+jwvCrld16MfUwpoO5tiH7z9IQ0iumyl4U1DrIgxYhrW8JDNGIoqD3we4j0lFeldR1vLmbWTptpLTaeolrTnmYStjJ08OW/eEKqJ3n5RaMqw+EJ1Ihi5UF9zy6QdsUTHSx/N99ZLGZ/EcQznU+UoWSxZBc22kRKQF9FodRaZqwzDGDEaCy0QZZaTJGWAyaym8mpgMyMepSoWG9ww+/jN/B4kOgYdPgecx+Lr+U9xH1lXCcXkfKfysfgeRg1qEdnwzElHRxujq/9JB+k9/RwQCNiAR4GfPdIT3DspifaYSg/PIFPinuH+2JDZrytzYgn7vLJF1uLSkIrKWbMOe8we29a1ALzZh8FBJ+dp0Q2nC9rcTmdhfRfdH1+fpNONbX6JrpHldc2xDeX0ht4BxPTEfCGgzK/7MqfAfE8vODuNPvu/aW4zceEGY6fffBIGA42qVIC87/KTw9NzrDMPlO9r8oQBG6xiS6MHEViBpM2pVJiilAQWqZoUqhyxRRMZlMbkywRRQQEhCKLnSKKMQbSl4iikMZK0kpiigAPxUe4O5h6GYriPFKXgfZ13AaxekpO4uPG09m/DSqTgyD+mq4HgQrerGKKQvRnXxGKKUIiuwnlXHapFSp/9H/uMUU24fWZ34cFxM/6oMNp7CKKY1/Zmk+A2KXc37vleCNFFCQYMrEHQ+UONUxRQ/2D6P/Z" alt="opop">
+           <h3 id="az">Elon Musk</h3>
+           <p id="z">Or Bhai Kasa hai..</p><p class="on">8.29  AM</p> <h6 class="off"></h6>
+    <img id="obama" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRRj0coamq-7TDtVgAdVFiTNFKrP3sKvngkQ&usqp=CAU" alt="men">
+           <h3 id="gf"> Obama Austad</h3>
+           <p id="x"> Set ha i samagh gai?</p> <p class="on">12:12  AM</p><h6 class="off"></h6>
+    <img id="women" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo6XH-DJSWCOXT-qocCQ9N56cmf4FXEEUsdA&usqp=CAU "  alt="women">
+            <h3 id="op">Phuppo</h3> 
+            <p id="n">ok</p> <p class="on">5:13  PM</p>
+            <img id="iqbal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu9SyJumojNpZHywwjdCw1K8STs-FCosrNvg&usqp=CAU" alt="tailor">
+              <h3 id="fu">Iqbal Plumber</h3>
+              <p id="o">Moter ok hai..</p><p class="on">3:15  PM</p>
+    <img id="drug" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL0Wxy4gCbopDMDYlVR2HzvBIUkuWC6O8EHQ&usqp=CAU" alt="men">
+                      <h3 id="du">Ajmal</h3> 
+                      <p id="uk">milgai kyaaa</p><p class="on">8:09  AM</p>
+   <img  id="ronaldo"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeONWylK6HlbseMI4SJmyUvVff9KNxARyjww&usqp=CAU" alt="men">
+                       <h3 id="ra">Ronaldo Bhaiaa</h3> <p class="on" >6:57  AM</p>
+                  
+     <img id="modi" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhoRPzpHJU86cxKlj_S45YRHwd7RV3uhOWBA&usqp=CAU" alt="men">
+                  <h3 id="mo">Modi lai</h3>
+                     <p id="f">Moye Moye</p> <p class="on">4:14  PM</p>
+     <img id="group" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0U-K0Gh1A8ZROe55cFsVjrsRzcVTRtnHdTA&usqp=CAU" alt="group">
+            <h3 id="ac">Ace Bpo Solution</h3> <p class="on">9:10 AM</p>
+  <img id="aslam" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqG5kgQeoIBLzd2RQgGldsVC4ZP1pl87u3iw&usqp=CAU" alt="men">
+                 <h3 id="lm">Aslam OK</h3>
+                         <p id="m">Marksheet...?</p><p class="on">2:13  AM</p>
+  </aside>
+    </div>
+   </section>
+   <section id="mother">
+   <img class="noob" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfp5bdYkMJ7Jc4QyuNtM9EJV-pxPNKUc2AnoQXPTKZxupUdqS7oFFOm1dahUzdkjFtfjs&usqp=CAU" alt="profile" >
+   <h4 id="babu">Khwahish</h4> <p class="babu"> seen 1min ago</p>
+   <i id="cam" class="fa-solid fa-video"style="color:#f4f8ff;"></i>
+   <i id="call" class="fa-solid fa-phone"style="color:#f4f8ff;"></i>
+   <i id="search" class="fa-solid fa-magnifying-glass fa-flip-horizontal"style="color:#f4f8ff;"></i>
+   </section>
+
+    <section id="child">
+   <i id="face" class="fa-regular fa-face-smile fa-lg" style="color:#f4f8ff;"></i>
+   <i id="pin" class="fa-brands fa-pinterest-p fa-lg" style="color:#f4f8ff;"></i> 
+   <input type="text" placeholder="Type a message">
+   <i id="mic" class="fa-solid fa-microphone fa-lg" style="color: #f4f8ff;"></i>
+   </section>
+
+<main>
+   <section>
+   <div id="main">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5a_W2HVFKxUPson37uH6A6XiRpJj0QKNBUQ&usqp=CAU" alt="img">
+      <p id="nine">Yeaterday</p> 
+    <p class="non">Messages and calls are end-to-end encrypted.no one outside of this chat,not even<br>
+                    WhattsApp, can read or listen to them. select to learn more.</p>
+    <p class="gang">sjadhgsdygjnjgaghs<br>
+      ashgahjhkqw yhjj<br></p>
+    <p id="a">7:14 a.m</p>
+    <i id="tick" class="fa-solid fa-check-double fa-sm" style="color: #386fcf;"></i>
+    <p class="bomb">Thk Hai... Tu pher </p>
+    <p id="b">8.44 a.m</p>  
+    <i id="cross" class="fa-solid fa-check-double fa-sm" style="color: #386fcf;"></i>
+       <p id="ten">Today</p>
+  
+    <p class="van">ajhdGTUrhjhhjGFIYI8UYQUht<br>
+      7q24hbuqugebfhbytwyjhhqwyw<br>
+       bqqege;qwqbdhnmfblfp</p> 
+      <p id="c">1:12 p.m</p>
+      <i id="ok" class="fa-solid fa-check-double fa-sm" style="color: #386fcf;"></i>
+    <p class="jeep">sahi hai</p>
+   <p id="d">2.20 p.m</p>
+   <i id="done" class="fa-solid fa-check-double fa-sm" style="color: #386fcf;"></i>
+       <p class="car">Ok Done</p>  
+          <p id="e">2.20 p.m</p>
+  <i id="lol" class="fa-solid fa-check-double fa-sm" style="color: #386fcf;"></i>  
+       </section>
+</main>
+</body>
+</html>
