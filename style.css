@@ -1,0 +1,342 @@
+body{
+    background-color: rgb(41,41,41);
+}
+#head{
+     position: absolute;
+     top: 3%;
+     left: 1%;
+}
+  #chat{
+  position: absolute;
+     top: 9%;
+     left: 1%;
+  }  
+
+  #phone{
+  position: absolute;
+     top: 14%;
+     left: 1%;
+    }
+
+    #status{
+  position: absolute;
+     top: 19%;
+     left: 1%;
+    }
+  #gear{
+  position: absolute;
+     top: 97%;
+     left: 1%;
+    }
+ #arch{
+  position: absolute;
+     top: 91%;
+     left: 1%;
+    }
+  #star{
+    position: absolute;
+    top: 85%;
+    left: 1%;
+  }
+  #bar{
+    position:absolute;
+    top: -2.4%;
+    left: 90%;
+  }
+  #group{
+    position:absolute;
+    top: -2.4%;
+    left: 76%;
+  } 
+  h2{
+    position: absolute;
+    top: -7%;
+    left:2%;
+    color: #e9ecf1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+     }
+  
+  
+    .logo{
+    color: white;
+    position: absolute;
+    top: -0.5%;
+    left: 3.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 400;
+  }   
+   #main{
+    color: rgb(41,41,41);
+    position:absolute;
+    top:6%;
+    left: 3.7%;
+    width: 94%;
+    height: 94%;
+   border-radius: 10px;
+}
+#nine{
+  color: white;
+  background-color:rgb(48, 45, 45) ;
+  width: 80px;
+  height: 2.6%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5%;
+  position: absolute;
+  top: 17%;
+  left: 60.7%;
+}
+.non{
+  background-color: rgb(173, 173, 148);
+  width: 560px;
+  height: 5%;
+   color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5%;
+  position: absolute;
+  top: 24%;
+  left: 45%;
+}
+.gang{
+   color: white;
+   background-color:rgb(54,54,54) ;
+   width:160px;
+   height: 6.8%;
+   text-align: center;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 35%;
+   left:30.2% ;
+}
+#a{
+  position: absolute;
+  top:42%;
+  left:37.9%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+}
+.bomb{
+  color: white;
+   background-color:rgb(9, 94, 6) ;
+   width: 120px;
+   height: 4.9%;
+   text-align: center;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 50%;
+   left:89% ;
+}
+#b{
+  position: absolute;
+  top: 55%;
+  left:94%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+}
+#ten{
+  color: white;
+  background-color:rgb(48, 45, 45) ;
+  width: 80px;
+  height: 2.6%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5%;
+  position: absolute;
+  top: 57%;
+  left: 60.7%;
+}
+.van{
+  color: white;
+   background-color:rgb(54,54,54) ;
+   width:220px;
+   height:8.8%;
+   text-align: center;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 68%;
+   left:30.2%;
+}
+#c{
+  position: absolute;
+  top: 77.5%;
+  left:42.2%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+}
+.jeep{
+  color: white;
+   background-color:rgb(9, 94, 6) ;
+   width: 120px;
+   height: 3%;
+   text-align: left;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 85%;
+   left:89% ;
+}
+#d{
+  position: absolute;
+  top: 88.8%;
+  left:94.3%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+ 
+}
+
+.car{
+  color: white;
+   background-color:rgb(9, 94, 6) ;
+   width: 120px;
+   height: 3%;
+   text-align: left;
+   border-radius: 4px;
+   padding: 0.7%;
+   position: absolute;
+   top: 92%;
+   left:89% ;
+}
+#e{
+  position: absolute;
+  top: 95.8%;
+  left:94.3%;
+ font-size: small;
+ color: rgb(185, 179, 179);
+}
+#tick{
+  position: absolute;
+  top:45%;
+  left:41.9%;
+}
+#cross{
+  position: absolute;
+  top: 58%;
+  left:97.9%;
+}
+#ok{
+  position: absolute;
+  top: 80%;
+  left:46.2%;
+}
+#done{
+  position: absolute;
+  top: 91.6%;
+  left:98%;
+}
+#lol{
+  position: absolute;
+  top: 98%;
+  left:98%;
+}
+.pro{
+    position: absolute;
+    top:96% ;
+    left:-27%;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}  
+img{
+  margin-top: 4.9%;
+   margin-left: 27.7%;
+   width: 998px;
+   height: 680px;
+}
+#father{
+  background-color:rgb(54,54,54);
+  margin-top:0% ;
+  margin-left:-0.2% ;
+  width: 370px;
+  height: 810px;
+  border-top-left-radius: 12px; 
+  border-bottom-left-radius: 12px;
+    position:absolute;
+    top:6%;
+    left: 3.7%;
+  border-right: 1px solid rgb(26, 24, 24);
+}
+#mother{
+    background-color: rgb(54,54,54);
+    margin-top:47px ;
+    margin-left: 29.4% ;
+    width: 71%;
+    height: 61.9px;
+    border-bottom: 1px solid rgb(26, 25, 25);
+}
+.noob{
+ position: absolute;
+ top: -1.3%;
+ left:3%;
+    width: 45px;
+    height: 45px;
+    border-radius: 21px;
+}
+#babu{
+  position: absolute;
+ top: 6%;
+ left:35%;
+ color: white;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.babu{
+  position: absolute;
+  top:9.5%;
+  left: 35%;
+  color: white;
+  font-size: small;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cam{
+    position: absolute;
+    top: 9%;
+    left: 90%;
+}
+#call{
+  position: absolute;
+    top: 9%;
+    left: 93%;
+}
+#search{
+  position: absolute;
+    top: 9%;
+    left: 96%;
+}
+
+#child{
+  background-color: rgb(54, 54, 54);
+    margin-left: 29.4%;
+     width: 999px;
+     height: 58.5px;
+     margin-top: 48.7%;
+     border-top: 2px solid rgb(26, 25, 25);
+}
+#face{
+  position: absolute;
+  top:106.7%;
+  left:31% ;
+}
+#pin{
+  position: absolute;
+  top: 106.7%;
+  left: 34%;
+}
+#mic{
+  position: absolute;
+  top:106.7%;
+  left: 97%;
+}
+input{
+  border-bottom:0px; border-top:0px; border-left:0 px; border-right: 0px;
+  background-color: rgb(54,54,54);
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 2%;
+  margin-left: 12%;
+width: 500px;
+}
+
+
